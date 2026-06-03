@@ -48,3 +48,4 @@ then
     dnf install python3 -y &>>$LOG_FILE
     VALIDATE $? "python3"
  else
+ fi
