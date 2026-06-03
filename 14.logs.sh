@@ -47,4 +47,4 @@ then
     echo "python3 is not installed... going to install it $N" | tee -a $LOG_FILE
     dnf install python3 -y &>>$LOG_FILE
     VALIDATE $? "python3"
-else
+ else
